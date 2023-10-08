@@ -1,11 +1,11 @@
 import socket #line:1
 import _thread #line:2
-def encrypt (toEncrypt ,OOOO0O0000OO00O0O ):#line:4
+def encrypt (toEncrypt ,EncryptionKey):#line:4
     O00OOOO0000OO00O0 =""#line:5
     for O00OO0O0O0000O000 in toEncrypt :#line:6
         if O00OO0O0O0000O000 .isalpha ():#line:7
             O000O00OO0O00OO0O =65 if O00OO0O0O0000O000 .isupper ()else 97 #line:8
-            OOO00OO00OOOOOO00 =chr ((ord (O00OO0O0O0000O000 )-O000O00OO0O00OO0O +OOOO0O0000OO00O0O )%26 +O000O00OO0O00OO0O )#line:9
+            OOO00OO00OOOOOO00 =chr ((ord (O00OO0O0O0000O000 )-O000O00OO0O00OO0O + EncryptionKey )%26 +O000O00OO0O00OO0O )#line:9
         else :#line:10
             OOO00OO00OOOOOO00 =O00OO0O0O0000O000 #line:11
         O00OOOO0000OO00O0 +=OOO00OO00OOOOOO00 #line:12
