@@ -1,4 +1,4 @@
-# TCP-CHAT
+# UNRELIABLECODE-TCP-CHAT-CLIENT
 a fucking nice python tcp chat (CLIENT)
 
 * THIS IS GOOD PYTHON PROGRAM
